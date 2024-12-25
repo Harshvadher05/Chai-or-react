@@ -23,7 +23,7 @@ const reactElement = {
     target: "_blank",
   },
   children: "click me to visit google",
-}; 
+}; .0
 
 const mainContainer = document.querySelector("#root");
 customRender(reactElement, mainContainer);

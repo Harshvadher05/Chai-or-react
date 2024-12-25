@@ -11,7 +11,8 @@ function MyApp() {
 }
 
 //syntex of an object for custom render
-const ReactElement = {  //tree structure
+const ReactElement = {
+  //tree structure
   type: "a",
   props: {
     href: "https://google.com",
