@@ -9,7 +9,7 @@ function useCurrencyInfo(currency) {
     )
       .then((res) => res.json())
       .then((res) => setData(res.conversion_rates));
-    // console.log(data);
+    console.log(data);
   }, [currency]);
 
   return data
