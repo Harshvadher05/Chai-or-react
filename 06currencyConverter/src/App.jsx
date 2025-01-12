@@ -31,15 +31,15 @@ function App() {
       }}
     >
       <div className="flex w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
-        <div className="w-1/2">
+        <div className="w-auto mr-6">
           <img
-            className="h-full  w-40"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH2WpARgT647J8Le7psYlwyjm6epSdz8Mzbw&s"
+            className="h-full rounded-lg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4rjavLgoTlP85oZXgYj6CIxTdxpvsUfxnDg&s"
             alt="chai"
           />{" "}
         </div>
 
-        <div className="w-full">
+        <div className="w-auto">
           <form
             onSubmit={(e) => {
               e.preventDefault();
